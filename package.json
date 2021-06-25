@@ -3,9 +3,14 @@
   "description": "",
   "version": "0.1.0",
   "dependencies": {
+    "aws-sdk": "^2.931.0",
+    "aws-xray-sdk-core": "^3.3.3",
     "serverless-pseudo-parameters": "^1.2.5"
   },
   "devDependencies": {
+    "serverless-bundle": "4.3.1",
+    "serverless-offline": "^5.3.3",
+    "serverless-plugin-tracing": "^2.0.0",
     "serverless-step-functions": "^1.2.0"
   }
 }
